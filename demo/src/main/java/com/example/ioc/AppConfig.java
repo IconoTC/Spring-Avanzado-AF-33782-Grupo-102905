@@ -17,7 +17,7 @@ public class AppConfig {
 	
 	@Bean
 	DummyJSpecify dummy() {
-		return new DummyJSpecify();
+		return new DummyJSpecify("Hola mundo");
 	}
 	
 //	@Bean
@@ -30,7 +30,7 @@ public class AppConfig {
 		return new ConstructorConValores(1, "yo" /*, notify*/);
 	}
 	@Bean
-	@Qualifier("tweet")
+//	@Qualifier("tweet")
 	@Tweet
 //	@Twit
 	Sender twitea() {

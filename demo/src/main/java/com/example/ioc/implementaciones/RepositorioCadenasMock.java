@@ -3,6 +3,8 @@ package com.example.ioc.implementaciones;
 import org.jspecify.annotations.NonNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Repository;
 
 import com.example.ioc.NotificationService;
 import com.example.ioc.anotaciones.MockRepository;
@@ -12,7 +14,7 @@ import com.example.ioc.contratos.RepositorioCadenas;
 import jakarta.annotation.PostConstruct;
 
 //@MockRepository
-//@Repository("dao")
+@Repository("dao")
 //@Qualifier("test")
 //@Primary
 public class RepositorioCadenasMock implements RepositorioCadenas {

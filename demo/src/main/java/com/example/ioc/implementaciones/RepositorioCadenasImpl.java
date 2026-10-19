@@ -12,9 +12,9 @@ import com.example.ioc.NotificationService;
 import com.example.ioc.contratos.Configuracion;
 import com.example.ioc.contratos.RepositorioCadenas;
 
-//@Repository
+@Repository
 //@Profile({"prod", "default"})
-//@Primary
+@Primary
 //@Qualifier("prod")
 public class RepositorioCadenasImpl implements RepositorioCadenas {
 	private final Configuracion configuracion;
