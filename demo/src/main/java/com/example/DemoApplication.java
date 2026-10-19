@@ -9,14 +9,16 @@ import com.example.base.DummyJSpecify;
 
 @SpringBootApplication
 public class DemoApplication implements CommandLineRunner {
-
+	private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DemoApplication.class);
+	
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.err.println("Aplicación arrancada ...");
+//		System.err.println("Aplicación arrancada ...");
+		log.warn("------------------> Aplicación arrancada ...");
 	}
 //	@Bean
 //	CommandLineRunner arranque() {

@@ -1,0 +1,24 @@
+2026-10-19T11:28:37.080+02:00  INFO 20760 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 20760 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-19T11:28:37.081+02:00  INFO 20760 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-19T11:28:37.290+02:00  INFO 20760 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-19T11:28:37.291+02:00  INFO 20760 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-19T11:28:37.297+02:00  INFO 20760 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-19T11:28:37.325+02:00  INFO 20760 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 239 ms
+2026-10-19T11:28:37.420+02:00  INFO 20760 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-19T11:28:37.426+02:00  INFO 20760 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.434 seconds (process running for 1416.898)
+2026-10-19T11:28:37.429+02:00  WARN 20760 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-19T11:28:37.431+02:00  INFO 20760 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-19T11:29:06.806+02:00  INFO 20760 --- [demo] [RMI TCP Connection(28)-172.19.48.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-10-19T11:29:06.807+02:00  INFO 20760 --- [demo] [RMI TCP Connection(28)-172.19.48.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-19T11:29:06.822+02:00  INFO 20760 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-19T11:29:15.914+02:00  INFO 3292 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 3292 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-19T11:29:15.917+02:00  INFO 3292 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-19T11:29:16.005+02:00  INFO 3292 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-19T11:29:16.005+02:00  INFO 3292 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-19T11:29:17.309+02:00  INFO 3292 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-19T11:29:17.349+02:00  INFO 3292 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-19T11:29:17.350+02:00  INFO 3292 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-19T11:29:17.424+02:00  INFO 3292 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1417 ms
+2026-10-19T11:29:17.932+02:00  INFO 3292 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-19T11:29:17.940+02:00  INFO 3292 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 2.77 seconds (process running for 3.682)
+2026-10-19T11:29:17.946+02:00  WARN 3292 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
