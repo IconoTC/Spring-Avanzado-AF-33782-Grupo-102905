@@ -891,3 +891,168 @@ Consider revisiting the entries above or defining a bean of type 'com.example.io
 2026-10-19T14:20:34.540+02:00  INFO 12584 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.366 seconds (process running for 2502.118)
 2026-10-19T14:20:34.543+02:00  WARN 12584 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
 2026-10-19T14:20:34.543+02:00  INFO 12584 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-19T14:28:49.176+02:00  INFO 12584 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-19T14:28:49.180+02:00  INFO 12584 --- [demo] [Thread-130] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-19T14:28:49.247+02:00  INFO 12584 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-19T14:28:49.414+02:00  INFO 12584 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 12584 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-19T14:28:49.416+02:00  INFO 12584 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-19T14:28:49.690+02:00  INFO 12584 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-19T14:28:49.692+02:00  INFO 12584 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-19T14:28:49.692+02:00  INFO 12584 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-19T14:28:49.718+02:00  INFO 12584 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 300 ms
+2026-10-19T14:28:49.817+02:00  INFO 12584 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-19T14:28:49.821+02:00  INFO 12584 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.446 seconds (process running for 2997.398)
+2026-10-19T14:28:49.980+02:00  WARN 12584 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-19T14:28:49.980+02:00  INFO 12584 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-19T14:31:47.540+02:00  INFO 12584 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 35 class path changes (0 additions, 30 deletions, 5 modifications)
+2026-10-19T14:31:47.542+02:00  INFO 12584 --- [demo] [Thread-134] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-19T14:31:47.565+02:00  INFO 12584 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-19T14:31:47.809+02:00  INFO 12584 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 12584 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-19T14:31:47.809+02:00  INFO 12584 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-19T14:31:48.131+02:00  INFO 12584 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-19T14:31:48.133+02:00  INFO 12584 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-19T14:31:48.133+02:00  INFO 12584 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-19T14:31:48.167+02:00  INFO 12584 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 342 ms
+2026-10-19T14:31:48.185+02:00  WARN 12584 --- [demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoApplication': Post-processing of merged bean definition failed
+2026-10-19T14:31:48.185+02:00  INFO 12584 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-10-19T14:31:48.199+02:00  INFO 12584 --- [demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-19T14:31:48.206+02:00 ERROR 12584 --- [demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoApplication': Post-processing of merged bean definition failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:580) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at com.example.DemoApplication.main(DemoApplication.java:21) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.DemoApplication] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@105be200]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:756) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:689) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:407) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:388) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:291) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1112) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:577) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/example/ioc/NotificationService
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:2917) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2247) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:751) ~[spring-core-7.0.9.jar:7.0.9]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.example.ioc.NotificationService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[na:na]
+	... 30 common frames omitted
+
+2026-10-19T14:37:47.766+02:00  INFO 2408 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 2408 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-19T14:37:47.773+02:00  INFO 2408 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-19T14:37:47.849+02:00  INFO 2408 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-19T14:37:47.850+02:00  INFO 2408 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-19T14:37:49.056+02:00  INFO 2408 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-19T14:37:49.076+02:00  INFO 2408 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-19T14:37:49.076+02:00  INFO 2408 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-19T14:37:49.139+02:00  INFO 2408 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1287 ms
+2026-10-19T14:37:49.645+02:00  INFO 2408 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-19T14:37:49.652+02:00  INFO 2408 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 2.52 seconds (process running for 3.319)
+2026-10-19T14:37:49.658+02:00  WARN 2408 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-19T14:37:56.966+02:00  INFO 2408 --- [demo] [RMI TCP Connection(1)-172.19.48.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-10-19T14:37:56.971+02:00  INFO 2408 --- [demo] [RMI TCP Connection(1)-172.19.48.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-19T14:37:56.993+02:00  INFO 2408 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-19T14:40:27.364+02:00  INFO 17220 --- [demo] [main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT using Java 27 with PID 17220 (C:\Cursos\REM20261019\demo\target\demo-0.0.1-SNAPSHOT.jar started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-19T14:40:27.372+02:00  INFO 17220 --- [demo] [main] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-19T14:40:29.190+02:00  INFO 17220 --- [demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-19T14:40:29.218+02:00  INFO 17220 --- [demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-19T14:40:29.220+02:00  INFO 17220 --- [demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-19T14:40:29.283+02:00  INFO 17220 --- [demo] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1805 ms
+2026-10-19T14:40:29.903+02:00  INFO 17220 --- [demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-19T14:40:29.954+02:00  INFO 17220 --- [demo] [main] com.example.DemoApplication              : Started DemoApplication in 3.689 seconds (process running for 4.738)
+2026-10-19T14:40:29.961+02:00  WARN 17220 --- [demo] [main] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-19T14:40:33.283+02:00  INFO 17220 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-19T14:40:33.306+02:00  INFO 17220 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-19T14:41:08.581+02:00  INFO 18044 --- [demo] [main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT using Java 27 with PID 18044 (C:\Cursos\REM20261019\demo\target\demo-0.0.1-SNAPSHOT.jar started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-19T14:41:08.588+02:00  INFO 18044 --- [demo] [main] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-19T14:41:10.285+02:00  INFO 18044 --- [demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-19T14:41:10.302+02:00  INFO 18044 --- [demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-19T14:41:10.303+02:00  INFO 18044 --- [demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-19T14:41:10.337+02:00  INFO 18044 --- [demo] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1642 ms
+2026-10-19T14:41:10.935+02:00  INFO 18044 --- [demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-19T14:41:10.953+02:00  INFO 18044 --- [demo] [main] com.example.DemoApplication              : Started DemoApplication in 3.202 seconds (process running for 4.037)
+2026-10-19T14:41:11.174+02:00  WARN 18044 --- [demo] [main] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-19T14:41:45.822+02:00  INFO 18044 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-19T14:41:45.844+02:00  INFO 18044 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-19T14:42:01.014+02:00  INFO 26116 --- [demo] [main] com.example.DemoApplicationTests         : Starting DemoApplicationTests using Java 25 with PID 26116 (started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-19T14:42:01.016+02:00  INFO 26116 --- [demo] [main] com.example.DemoApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2026-10-19T14:42:03.001+02:00  INFO 26116 --- [demo] [main] com.example.DemoApplicationTests         : Started DemoApplicationTests in 2.575 seconds (process running for 4.807)
+2026-10-19T14:42:03.009+02:00  WARN 26116 --- [demo] [main] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-19T14:45:15.691+02:00  INFO 23476 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 23476 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-19T14:45:15.696+02:00  INFO 23476 --- [demo] [restartedMain] com.example.DemoApplication              : The following 1 profile is active: "test"
+2026-10-19T14:45:15.708+02:00  INFO 28636 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 28636 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-19T14:45:15.714+02:00  INFO 28636 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-19T14:45:15.781+02:00  INFO 23476 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-19T14:45:15.781+02:00  INFO 23476 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-19T14:45:15.819+02:00  INFO 28636 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-19T14:45:15.819+02:00  INFO 28636 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-19T14:45:17.340+02:00  INFO 23476 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8002 (http)
+2026-10-19T14:45:17.361+02:00  INFO 23476 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-19T14:45:17.362+02:00  INFO 23476 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-19T14:45:17.397+02:00  INFO 28636 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-19T14:45:17.418+02:00  INFO 28636 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-19T14:45:17.418+02:00  INFO 28636 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-19T14:45:17.439+02:00  INFO 23476 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1656 ms
+2026-10-19T14:45:17.480+02:00  INFO 28636 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1660 ms
+2026-10-19T14:45:18.031+02:00  INFO 23476 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8002 (http) with context path '/'
+2026-10-19T14:45:18.039+02:00  INFO 23476 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 3.109 seconds (process running for 4.192)
+2026-10-19T14:45:18.045+02:00  WARN 23476 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-19T14:45:18.064+02:00  INFO 28636 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-19T14:45:18.071+02:00  INFO 28636 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 3.125 seconds (process running for 4.197)
+2026-10-19T14:45:18.078+02:00  WARN 28636 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-19T14:45:53.246+02:00  INFO 23476 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-19T14:45:53.246+02:00  INFO 28636 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-19T14:45:53.252+02:00  INFO 28636 --- [demo] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-19T14:45:53.255+02:00  INFO 23476 --- [demo] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-19T14:45:53.277+02:00  INFO 23476 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-19T14:45:53.277+02:00  INFO 28636 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-19T14:45:53.427+02:00  INFO 23476 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 23476 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-19T14:45:53.427+02:00  INFO 28636 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 28636 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-19T14:45:53.427+02:00  INFO 23476 --- [demo] [restartedMain] com.example.DemoApplication              : The following 1 profile is active: "test"
+2026-10-19T14:45:53.428+02:00  INFO 28636 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-19T14:45:53.816+02:00  INFO 28636 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-19T14:45:53.817+02:00  INFO 23476 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8002 (http)
+2026-10-19T14:45:53.817+02:00  INFO 28636 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-19T14:45:53.817+02:00  INFO 28636 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-19T14:45:53.819+02:00  INFO 23476 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-19T14:45:53.821+02:00  INFO 23476 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-19T14:45:53.858+02:00  INFO 28636 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 425 ms
+2026-10-19T14:45:53.863+02:00  INFO 23476 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 427 ms
+2026-10-19T14:45:53.994+02:00  INFO 28636 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-19T14:45:53.995+02:00  INFO 23476 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8002 (http) with context path '/'
+2026-10-19T14:45:53.999+02:00  INFO 28636 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.621 seconds (process running for 40.126)
+2026-10-19T14:45:54.001+02:00  INFO 23476 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.625 seconds (process running for 40.152)
+2026-10-19T14:45:54.008+02:00  WARN 23476 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-19T14:45:54.009+02:00  WARN 28636 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-19T14:45:54.011+02:00  INFO 23476 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-19T14:45:54.016+02:00  INFO 28636 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-19T14:46:33.344+02:00  INFO 23476 --- [demo] [RMI TCP Connection(5)-172.19.48.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-10-19T14:46:33.345+02:00  INFO 23476 --- [demo] [RMI TCP Connection(5)-172.19.48.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-19T14:46:33.361+02:00  INFO 23476 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-19T14:46:39.752+02:00  INFO 28636 --- [demo] [RMI TCP Connection(5)-172.19.48.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-10-19T14:46:39.753+02:00  INFO 28636 --- [demo] [RMI TCP Connection(5)-172.19.48.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-19T14:46:39.767+02:00  INFO 28636 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete

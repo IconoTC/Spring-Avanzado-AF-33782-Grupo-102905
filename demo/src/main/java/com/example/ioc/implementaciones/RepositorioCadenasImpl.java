@@ -13,8 +13,8 @@ import com.example.ioc.contratos.Configuracion;
 import com.example.ioc.contratos.RepositorioCadenas;
 
 @Repository
-//@Profile({"prod", "default"})
-@Primary
+@Profile({"prod", "default"})
+//@Primary
 //@Qualifier("prod")
 public class RepositorioCadenasImpl implements RepositorioCadenas {
 	private final Configuracion configuracion;

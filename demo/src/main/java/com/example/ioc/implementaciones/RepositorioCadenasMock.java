@@ -13,8 +13,8 @@ import com.example.ioc.contratos.RepositorioCadenas;
 
 import jakarta.annotation.PostConstruct;
 
-//@MockRepository
-@Repository("dao")
+@MockRepository
+//@Repository("dao")
 //@Qualifier("test")
 //@Primary
 public class RepositorioCadenasMock implements RepositorioCadenas {
