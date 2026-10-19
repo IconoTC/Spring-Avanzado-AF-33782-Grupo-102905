@@ -5,6 +5,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+import com.example.base.DummyJSpecify;
+
 @SpringBootApplication
 public class DemoApplication implements CommandLineRunner {
 
@@ -16,11 +18,22 @@ public class DemoApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		System.err.println("Aplicación arrancada ...");
 	}
-	@Bean
-	CommandLineRunner arranque() {
-		return arg -> {
-			System.err.println("Aplicación arrancada con bean");
-		};
-	}
+//	@Bean
+//	CommandLineRunner arranque() {
+//		return arg -> {
+//			System.err.println("Aplicación arrancada con bean");
+//		};
+//	}
+//	@Bean
+//	CommandLineRunner nullable() {
+//		return arg -> {
+//			var dummy = new DummyJSpecify();
+//			
+//			if(dummy.getCadena() != null)
+//			System.out.println(dummy.getCadena().toUpperCase());
+//				System.out.println(dummy.getCadenaSegura().orElse("").toUpperCase());
+//			dummy.setCadenaSegura(null);
+//		};
+//	}
 
 }
