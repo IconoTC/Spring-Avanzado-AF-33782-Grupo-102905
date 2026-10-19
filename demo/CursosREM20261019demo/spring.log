@@ -22,3 +22,68 @@
 2026-10-19T11:29:17.932+02:00  INFO 3292 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
 2026-10-19T11:29:17.940+02:00  INFO 3292 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 2.77 seconds (process running for 3.682)
 2026-10-19T11:29:17.946+02:00  WARN 3292 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-19T13:11:58.600+02:00  INFO 3292 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 24 class path changes (24 additions, 0 deletions, 0 modifications)
+2026-10-19T13:11:58.611+02:00  INFO 3292 --- [demo] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-19T13:11:58.635+02:00  INFO 3292 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-19T13:11:58.797+02:00  INFO 3292 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 3292 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-19T13:11:58.797+02:00  INFO 3292 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-19T13:11:59.337+02:00  INFO 3292 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-19T13:11:59.339+02:00  INFO 3292 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-19T13:11:59.340+02:00  INFO 3292 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-19T13:11:59.373+02:00  INFO 3292 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 571 ms
+2026-10-19T13:11:59.570+02:00  INFO 3292 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-19T13:11:59.577+02:00  INFO 3292 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.834 seconds (process running for 6165.319)
+2026-10-19T13:11:59.577+02:00  WARN 3292 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-19T13:11:59.580+02:00  INFO 3292 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-19T13:12:52.103+02:00  INFO 3292 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-10-19T13:12:52.105+02:00  INFO 3292 --- [demo] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-19T13:12:52.118+02:00  INFO 3292 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-19T13:12:52.251+02:00  INFO 3292 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 3292 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-19T13:12:52.252+02:00  INFO 3292 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-19T13:12:52.571+02:00  INFO 3292 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-19T13:12:52.572+02:00  INFO 3292 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-19T13:12:52.573+02:00  INFO 3292 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-19T13:12:52.601+02:00  INFO 3292 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 345 ms
+2026-10-19T13:12:52.702+02:00  INFO 3292 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-19T13:12:52.713+02:00  INFO 3292 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.504 seconds (process running for 6218.455)
+2026-10-19T13:12:52.716+02:00  WARN 3292 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-19T13:12:52.717+02:00  INFO 3292 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-19T13:14:14.087+02:00  INFO 3292 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2026-10-19T13:14:14.089+02:00  INFO 3292 --- [demo] [Thread-9] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-19T13:14:14.104+02:00  INFO 3292 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-19T13:14:14.231+02:00  INFO 3292 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 3292 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-19T13:14:14.231+02:00  INFO 3292 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-19T13:14:14.599+02:00  INFO 3292 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-19T13:14:14.602+02:00  INFO 3292 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-19T13:14:14.603+02:00  INFO 3292 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-19T13:14:14.632+02:00  INFO 3292 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 394 ms
+2026-10-19T13:14:14.767+02:00  INFO 3292 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-19T13:14:14.773+02:00  INFO 3292 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.589 seconds (process running for 6300.515)
+2026-10-19T13:14:14.775+02:00  WARN 3292 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-19T13:14:14.776+02:00  INFO 3292 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-19T13:15:38.233+02:00  INFO 3292 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-19T13:15:38.235+02:00  INFO 3292 --- [demo] [Thread-13] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-19T13:15:38.250+02:00  INFO 3292 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-19T13:15:38.376+02:00  INFO 3292 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 3292 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-19T13:15:38.377+02:00  INFO 3292 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-19T13:15:38.646+02:00  INFO 3292 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-19T13:15:38.647+02:00  INFO 3292 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-19T13:15:38.647+02:00  INFO 3292 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-19T13:15:38.677+02:00  INFO 3292 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 297 ms
+2026-10-19T13:15:38.769+02:00  INFO 3292 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-19T13:15:38.773+02:00  INFO 3292 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.437 seconds (process running for 6384.515)
+2026-10-19T13:15:38.775+02:00  WARN 3292 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-19T13:15:38.779+02:00  INFO 3292 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-19T13:17:38.041+02:00  INFO 3292 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-19T13:17:38.043+02:00  INFO 3292 --- [demo] [Thread-17] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-19T13:17:38.060+02:00  INFO 3292 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-19T13:17:38.185+02:00  INFO 3292 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 3292 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-19T13:17:38.186+02:00  INFO 3292 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-19T13:17:38.498+02:00  INFO 3292 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-19T13:17:38.501+02:00  INFO 3292 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-19T13:17:38.501+02:00  INFO 3292 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-19T13:17:38.533+02:00  INFO 3292 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 344 ms
+2026-10-19T13:17:38.646+02:00  INFO 3292 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-19T13:17:38.648+02:00  INFO 3292 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.498 seconds (process running for 6504.39)
+2026-10-19T13:17:38.650+02:00  WARN 3292 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-19T13:17:38.650+02:00  INFO 3292 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

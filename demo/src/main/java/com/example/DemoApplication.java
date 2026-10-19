@@ -37,5 +37,11 @@ public class DemoApplication implements CommandLineRunner {
 //			dummy.setCadenaSegura(null);
 //		};
 //	}
+	@Bean
+	CommandLineRunner ioc() {
+		return arg -> {
+			
+		};
+	}
 
 }
