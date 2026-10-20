@@ -9,6 +9,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.context.event.EventListener;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
@@ -25,6 +26,7 @@ import com.example.ioc.implementaciones.ServicioCadenasImpl;
 import com.example.ioc.notificaciones.Sender;
 
 @SpringBootApplication
+@EnableAspectJAutoProxy
 public class DemoApplication implements CommandLineRunner {
 	private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DemoApplication.class);
 	

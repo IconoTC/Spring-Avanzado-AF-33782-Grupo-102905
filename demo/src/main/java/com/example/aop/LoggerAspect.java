@@ -11,8 +11,8 @@ import org.springframework.stereotype.Component;
 
 import com.example.ioc.anotaciones.Pruebas;
 
-@Pruebas
-@Component
+//@Pruebas
+//@Component
 @Aspect
 public class LoggerAspect {
 	Logger log = LoggerFactory.getLogger(LoggerAspect.class);
