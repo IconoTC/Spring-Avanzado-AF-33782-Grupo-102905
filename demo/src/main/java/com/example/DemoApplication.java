@@ -9,9 +9,11 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.event.EventListener;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 import com.example.base.DummyJSpecify;
+import com.example.ioc.GenericoEvent;
 import com.example.ioc.NotificationService;
 import com.example.ioc.Rango;
 import com.example.ioc.anotaciones.EMail;
@@ -66,6 +68,7 @@ public class DemoApplication implements CommandLineRunner {
 			
 			//ServicioCadenas srv = new ServicioCadenasImpl(new RepositorioCadenasImpl(new ConfiguracionImpl(notify), notify), notify);
 			srv.get().forEach(notify::add);
+			srv.add("algo");
 			notify.getListado().forEach(System.out::println);
 			System.err.println(rango);
 		};
@@ -109,5 +112,20 @@ public class DemoApplication implements CommandLineRunner {
 			}
 		};
 	}
+
+//	@EventListener
+//	private void eventHandler(GenericoEvent ev) {
+//		IO.println("Evento generico: %s -> %s".formatted(ev.origen(), ev.carga()));
+//	}
+//
+////	@EventListener
+//	private void eventHandler2(GenericoEvent ev) {
+//		IO.println("Este es otro tratamiento del evento generico: %s -> %s".formatted(ev.origen(), ev.carga()));
+//	}
+//
+//	@EventListener
+//	private void eventStringHandler(String ev) {
+//		IO.println("Tramiento Evento cadena: %s".formatted(ev));
+//	}
 
 }
