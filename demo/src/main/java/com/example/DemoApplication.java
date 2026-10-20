@@ -41,7 +41,7 @@ import com.example.ioc.notificaciones.TwitterSender;
 @EnableScheduling
 @SpringBootApplication
 @EnableAspectJAutoProxy
-//@EnableResilientMethods
+@EnableResilientMethods
 public class DemoApplication implements CommandLineRunner {
 	private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DemoApplication.class);
 	
@@ -208,7 +208,7 @@ public class DemoApplication implements CommandLineRunner {
 		}
 	}
 
-	@Bean
+//	@Bean
 	CommandLineRunner asincrono(DummyAsync dummy) {
 		return arg -> {
 			var obj = dummy; // new DummyAsync();
@@ -257,7 +257,7 @@ public class DemoApplication implements CommandLineRunner {
 		};
 	}
 
-//	@Bean
+	@Bean
 	CommandLineRunner limites(DummyRetry dummy, DummyAsync obj) {
 		return arg -> {
 			for (var i = 1; ++i <= 10;) {

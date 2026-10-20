@@ -1806,3 +1806,163 @@ java.lang.NullPointerException: Cannot invoke "com.example.base.DummyAsync.ejecu
 2026-10-20T14:14:32.239+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.679 seconds (process running for 1427.487)
 2026-10-20T14:14:32.261+02:00  WARN 7764 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
 2026-10-20T14:14:32.270+02:00  INFO 7764 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T14:23:53.886+02:00  INFO 7764 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-10-20T14:23:53.888+02:00  INFO 7764 --- [demo] [Thread-41] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T14:23:53.903+02:00  INFO 7764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T14:23:54.076+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 7764 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T14:23:54.077+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T14:23:54.427+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T14:23:54.429+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T14:23:54.429+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T14:23:54.452+02:00  INFO 7764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 372 ms
+2026-10-20T14:23:54.875+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T14:23:54.879+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.85 seconds (process running for 1990.126)
+2026-10-20T14:23:54.883+02:00  WARN 7764 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T14:23:54.884+02:00  INFO 7764 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T14:24:53.172+02:00  INFO 7764 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T14:24:53.174+02:00  INFO 7764 --- [demo] [Thread-49] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T14:24:53.189+02:00  INFO 7764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T14:24:53.313+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 7764 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T14:24:53.315+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T14:24:53.718+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T14:24:53.721+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T14:24:53.721+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T14:24:53.743+02:00  INFO 7764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 423 ms
+2026-10-20T14:24:54.121+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T14:24:54.125+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.849 seconds (process running for 2049.372)
+2026-10-20T14:24:54.126+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T14:24:54.127+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T14:24:54.138+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T14:24:55.142+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T14:24:56.143+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T14:24:57.144+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T14:24:58.145+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T14:24:59.145+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T14:24:59.145+02:00  WARN 7764 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T14:24:59.146+02:00  INFO 7764 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T14:25:36.730+02:00  INFO 7764 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T14:25:36.732+02:00  INFO 7764 --- [demo] [Thread-53] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T14:25:36.747+02:00  INFO 7764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T14:25:36.885+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 7764 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T14:25:36.886+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T14:25:37.189+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T14:25:37.190+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T14:25:37.190+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T14:25:37.213+02:00  INFO 7764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 320 ms
+2026-10-20T14:25:37.605+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T14:25:37.607+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.752 seconds (process running for 2092.854)
+2026-10-20T14:25:37.617+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T14:25:38.620+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T14:25:39.622+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T14:25:40.624+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T14:25:41.625+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T14:25:42.626+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T14:25:42.629+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T14:25:43.630+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T14:25:44.633+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T14:25:45.634+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T14:25:46.636+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T14:25:47.638+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T14:25:47.638+02:00  WARN 7764 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T14:25:47.638+02:00  INFO 7764 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T14:26:52.221+02:00  INFO 7764 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-10-20T14:26:52.222+02:00  INFO 7764 --- [demo] [Thread-57] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T14:26:52.238+02:00  INFO 7764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T14:26:52.330+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 7764 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T14:26:52.330+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T14:26:52.596+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T14:26:52.597+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T14:26:52.598+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T14:26:52.621+02:00  INFO 7764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 288 ms
+2026-10-20T14:26:53.005+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T14:26:53.009+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.712 seconds (process running for 2168.256)
+2026-10-20T14:26:53.012+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T14:26:54.012+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T14:26:55.014+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T14:26:56.014+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T14:26:57.016+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T14:26:58.017+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T14:26:59.019+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T14:27:00.020+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T14:27:01.022+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T14:27:02.024+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T14:27:03.025+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T14:27:04.025+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T14:27:04.025+02:00  WARN 7764 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T14:27:04.027+02:00  INFO 7764 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T14:27:21.228+02:00  INFO 7764 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-10-20T14:27:21.229+02:00  INFO 7764 --- [demo] [Thread-61] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T14:27:21.246+02:00  INFO 7764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T14:27:21.370+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 7764 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T14:27:21.371+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T14:27:21.700+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T14:27:21.701+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T14:27:21.701+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T14:27:21.726+02:00  INFO 7764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 350 ms
+2026-10-20T14:27:22.161+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T14:27:22.167+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.837 seconds (process running for 2197.414)
+2026-10-20T14:27:22.170+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T14:27:23.173+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T14:27:24.174+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T14:27:25.177+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T14:27:26.178+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T14:27:27.179+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T14:27:27.181+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T14:27:28.182+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T14:27:29.183+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T14:27:30.185+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T14:27:31.186+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T14:27:32.187+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T14:27:33.188+02:00  WARN 7764 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T14:27:33.188+02:00  INFO 7764 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T14:28:05.767+02:00  INFO 7764 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-10-20T14:28:05.769+02:00  INFO 7764 --- [demo] [Thread-65] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T14:28:05.785+02:00  INFO 7764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T14:28:05.910+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 7764 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T14:28:05.911+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T14:28:06.229+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T14:28:06.230+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T14:28:06.230+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T14:28:06.253+02:00  INFO 7764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 340 ms
+2026-10-20T14:28:06.640+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T14:28:06.642+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.765 seconds (process running for 2241.89)
+2026-10-20T14:28:06.644+02:00  WARN 7764 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T14:28:06.646+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T14:28:07.647+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T14:28:08.648+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T14:28:09.650+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T14:28:10.651+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T14:28:11.652+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T14:28:11.653+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T14:28:12.655+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T14:28:13.658+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T14:28:14.660+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T14:28:15.662+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T14:28:16.663+02:00 ERROR 7764 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T14:28:16.664+02:00  INFO 7764 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T14:30:07.877+02:00  INFO 7764 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-10-20T14:30:07.879+02:00  INFO 7764 --- [demo] [Thread-69] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T14:30:07.893+02:00  INFO 7764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T14:30:08.054+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 7764 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T14:30:08.054+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T14:30:08.414+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T14:30:08.415+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T14:30:08.415+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T14:30:08.440+02:00  INFO 7764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 381 ms
+2026-10-20T14:30:08.887+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T14:30:08.890+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.873 seconds (process running for 2364.138)
+2026-10-20T14:30:08.894+02:00  WARN 7764 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T14:30:08.899+02:00  INFO 7764 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T14:30:59.779+02:00  INFO 7764 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T14:30:59.780+02:00  INFO 7764 --- [demo] [Thread-73] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T14:30:59.795+02:00  INFO 7764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T14:30:59.929+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 7764 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T14:30:59.929+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T14:31:00.250+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T14:31:00.252+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T14:31:00.252+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T14:31:00.275+02:00  INFO 7764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 343 ms
+2026-10-20T14:31:00.635+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T14:31:00.637+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.736 seconds (process running for 2415.884)
+2026-10-20T14:31:00.640+02:00  WARN 7764 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T14:31:00.642+02:00  INFO 7764 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
