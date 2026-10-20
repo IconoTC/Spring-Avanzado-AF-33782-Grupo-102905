@@ -2,6 +2,7 @@ package com.example;
 
 import java.util.List;
 
+import org.springframework.aop.aspectj.annotation.AspectJProxyFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
@@ -13,6 +14,9 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.context.event.EventListener;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
+import com.example.aop.AuthenticationService;
+import com.example.aop.introductions.Visible;
+import com.example.aop.introductions.VisibleAspect;
 import com.example.base.DummyJSpecify;
 import com.example.ioc.GenericoEvent;
 import com.example.ioc.NotificationService;
@@ -24,6 +28,7 @@ import com.example.ioc.implementaciones.ConfiguracionImpl;
 import com.example.ioc.implementaciones.RepositorioCadenasImpl;
 import com.example.ioc.implementaciones.ServicioCadenasImpl;
 import com.example.ioc.notificaciones.Sender;
+import com.example.ioc.notificaciones.TwitterSender;
 
 @SpringBootApplication
 @EnableAspectJAutoProxy
@@ -49,30 +54,40 @@ public class DemoApplication implements CommandLineRunner {
 //	CommandLineRunner nullable(DummyJSpecify dummy) {
 //		return arg -> {
 //			//var dummy = new DummyJSpecify();
-//			
-//			if(dummy.getCadena() != null)
-//			System.out.println(dummy.getCadena().toUpperCase());
-//				System.out.println(dummy.getCadenaSegura().orElse("").toUpperCase());
-////			dummy.setCadenaSegura(null);
+//			try {
+//				if(dummy.getCadena() != null)
+//				System.out.println(dummy.getCadena().toUpperCase());
+//					System.out.println(dummy.getCadenaSegura().orElse("").toUpperCase());
+//				dummy.setCadenaSegura(null);				
+//			} catch (Exception ex) {
+//				System.err.println("Tratamiento de la excepcion");
+//				ex.printStackTrace();
+//			}
 //		};
 //	}
 	
 	@Autowired
 	NotificationService notify;
 	
-	@Bean
-	CommandLineRunner ioc(ServicioCadenas srv, String otroAutor, @Value("${spring.application.name}") String nombre, Rango rango) {
+//	@Bean
+	CommandLineRunner ioc(ServicioCadenas srv, String otroAutor, @Value("${spring.application.name}") String nombre, Rango rango, 
+			AuthenticationService auth) {
 		return arg -> {
-//			var nombre = "mundo";
-			notify.add("Hola %s".formatted(nombre));
-			notify.add("Hola %s".formatted(otroAutor));
-			notify.add("que tal");
-			
-			//ServicioCadenas srv = new ServicioCadenasImpl(new RepositorioCadenasImpl(new ConfiguracionImpl(notify), notify), notify);
-			srv.get().forEach(notify::add);
-			srv.add("algo");
-			notify.getListado().forEach(System.out::println);
-			System.err.println(rango);
+			try {
+	//			var nombre = "mundo";
+				notify.add("Hola %s".formatted(nombre));
+				notify.add("Hola %s".formatted(otroAutor));
+				notify.add("que tal");
+				
+				//ServicioCadenas srv = new ServicioCadenasImpl(new RepositorioCadenasImpl(new ConfiguracionImpl(notify), notify), notify);
+				srv.get().forEach(notify::add);
+				auth.login();
+				srv.add("algo");
+				notify.getListado().forEach(System.out::println);
+				System.err.println(rango);
+			} catch (Exception ex) {
+				ex.printStackTrace();
+			}
 		};
 	}
 	
@@ -129,5 +144,46 @@ public class DemoApplication implements CommandLineRunner {
 //	private void eventStringHandler(String ev) {
 //		IO.println("Tramiento Evento cadena: %s".formatted(ev));
 //	}
+	
+//	@Bean
+	CommandLineRunner introduccionesAOP(@Tweet Sender sender) {
+		return arg -> {
+			System.err.println(sender.getClass().getCanonicalName());
+			sender.send("Hola mundo");
+			if(sender instanceof Visible v) {
+				IO.println(v.isVisible() ? "ES visibe" : "NO es visible");
+				v.mostrar();
+				IO.println(v.isVisible() ? "ES visibe" : "NO es visible");
+				v.ocultar();
+				IO.println(v.isVisible() ? "ES visibe" : "NO es visible");
+			} else {
+				System.err.println("NO implementa el interfaz Visible.");
+			}
+			
+		};
+	}
+	@Bean
+	CommandLineRunner generarProxyManual() {
+		return arg -> {
+			var target = new TwitterSender();
+			AspectJProxyFactory factory = new AspectJProxyFactory(target);
+			factory.addAspect(VisibleAspect.class);
+
+			var sender = factory.getProxy();
+
+			System.err.println(sender.getClass().getCanonicalName());
+			target.send("Hola mundo");
+			if(sender instanceof Visible v) {
+				IO.println(v.isVisible() ? "ES visibe" : "NO es visible");
+				v.mostrar();
+				IO.println(v.isVisible() ? "ES visibe" : "NO es visible");
+				v.ocultar();
+				IO.println(v.isVisible() ? "ES visibe" : "NO es visible");
+			} else {
+				System.err.println("NO implementa el interfaz Visible.");
+			}
+			
+		};
+	}
 
 }
