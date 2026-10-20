@@ -37,8 +37,8 @@ import com.example.ioc.implementaciones.ServicioCadenasImpl;
 import com.example.ioc.notificaciones.Sender;
 import com.example.ioc.notificaciones.TwitterSender;
 
-//@EnableAsync
-//@EnableScheduling
+@EnableAsync
+@EnableScheduling
 @SpringBootApplication
 @EnableAspectJAutoProxy
 //@EnableResilientMethods
@@ -79,7 +79,7 @@ public class DemoApplication implements CommandLineRunner {
 	@Autowired
 	NotificationService notify;
 	
-	@Bean
+//	@Bean
 	CommandLineRunner ioc(ServicioCadenas srv, String otroAutor, @Value("${spring.application.name}") String nombre, Rango rango, 
 			AuthenticationService auth) {
 		return arg -> {
@@ -196,18 +196,19 @@ public class DemoApplication implements CommandLineRunner {
 			
 		};
 	}
+
 	@Scheduled(timeUnit = TimeUnit.SECONDS, fixedRate = 5, initialDelay = 5)
 	void mostrarNotificaciones() {
-		 IO.println("Han pasado 5 segundos");
-//		if (notify.hasMessages()) {
-//			IO.println("==============>");
-//			notify.getListado().forEach(IO::println);
-//			notify.clear();
-//			IO.println("<==============");
-//		}
+//		 IO.println("Han pasado 5 segundos");
+		if (notify.hasMessages()) {
+			IO.println("==============>");
+			notify.getListado().forEach(IO::println);
+			notify.clear();
+			IO.println("<==============");
+		}
 	}
 
-//	@Bean
+	@Bean
 	CommandLineRunner asincrono(DummyAsync dummy) {
 		return arg -> {
 			var obj = dummy; // new DummyAsync();

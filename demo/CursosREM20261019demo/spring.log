@@ -1432,3 +1432,377 @@ Unconditional classes:
 2026-10-20T13:04:24.884+02:00  WARN 5456 --- [demo] [restartedMain] com.example.aop.LoggerAspect             : void com.example.ioc.implementaciones.ServicioCadenasImpl.add(String) executing.
 2026-10-20T13:04:24.887+02:00  WARN 5456 --- [demo] [restartedMain] com.example.aop.LoggerAspect             : void com.example.ioc.implementaciones.ServicioCadenasImpl.add(String) executed.
 2026-10-20T13:04:24.889+02:00  WARN 5456 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T13:45:23.213+02:00  INFO 5456 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T13:45:23.219+02:00  INFO 5456 --- [demo] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T13:45:23.232+02:00  INFO 5456 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T13:45:23.394+02:00  INFO 5456 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 5456 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T13:45:23.395+02:00  INFO 5456 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T13:45:23.773+02:00  INFO 5456 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T13:45:23.777+02:00  INFO 5456 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T13:45:23.777+02:00  INFO 5456 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T13:45:23.809+02:00  INFO 5456 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 408 ms
+2026-10-20T13:45:24.213+02:00  INFO 5456 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T13:45:24.217+02:00  INFO 5456 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.874 seconds (process running for 2463.507)
+2026-10-20T13:45:24.222+02:00  WARN 5456 --- [demo] [restartedMain] com.example.aop.LoggerAspect             : void com.example.ioc.implementaciones.ServicioCadenasImpl.add(String) executing.
+2026-10-20T13:45:24.224+02:00  WARN 5456 --- [demo] [restartedMain] com.example.aop.LoggerAspect             : void com.example.ioc.implementaciones.ServicioCadenasImpl.add(String) executed.
+2026-10-20T13:45:24.225+02:00  WARN 5456 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T13:45:24.231+02:00  INFO 5456 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   TaskExecutorConfigurations.SimpleAsyncTaskExecutorBuilderConfiguration#simpleAsyncTaskExecutorBuilderVirtualThreads matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      - @ConditionalOnThreading found VIRTUAL (OnThreadingCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration#applicationTaskExecutorVirtualThreads matched:
+      - @ConditionalOnThreading found VIRTUAL (OnThreadingCondition)
+
+   TaskSchedulingConfigurations.SimpleAsyncTaskSchedulerBuilderConfiguration#simpleAsyncTaskSchedulerBuilderVirtualThreads matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      - @ConditionalOnThreading found VIRTUAL (OnThreadingCondition)
+
+   TomcatWebServerConfiguration#tomcatVirtualThreadsProtocolHandlerCustomizer matched:
+      - @ConditionalOnThreading found VIRTUAL (OnThreadingCondition)
+
+
+Negative matches:
+-----------------
+
+   TaskExecutorConfigurations.SimpleAsyncTaskExecutorBuilderConfiguration#simpleAsyncTaskExecutorBuilder:
+      Did not match:
+         - @ConditionalOnThreading did not find PLATFORM (OnThreadingCondition)
+      Matched:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration#applicationTaskExecutor:
+      Did not match:
+         - @ConditionalOnThreading did not find PLATFORM (OnThreadingCondition)
+
+   TaskSchedulingConfigurations.SimpleAsyncTaskSchedulerBuilderConfiguration#simpleAsyncTaskSchedulerBuilder:
+      Did not match:
+         - @ConditionalOnThreading did not find PLATFORM (OnThreadingCondition)
+      Matched:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-10-20T13:49:58.537+02:00  INFO 5456 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T13:49:58.539+02:00  INFO 5456 --- [demo] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T13:49:58.552+02:00  INFO 5456 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T13:49:58.669+02:00  INFO 5456 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 5456 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T13:49:58.670+02:00  INFO 5456 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T13:49:58.995+02:00  INFO 5456 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T13:49:58.995+02:00  INFO 5456 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T13:49:58.995+02:00  INFO 5456 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T13:49:59.022+02:00  INFO 5456 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 347 ms
+2026-10-20T13:49:59.326+02:00  INFO 5456 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T13:49:59.330+02:00  INFO 5456 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.707 seconds (process running for 2738.619)
+2026-10-20T13:49:59.334+02:00  WARN 5456 --- [demo] [restartedMain] com.example.aop.LoggerAspect             : void com.example.ioc.implementaciones.ServicioCadenasImpl.add(String) executing.
+2026-10-20T13:49:59.336+02:00  WARN 5456 --- [demo] [restartedMain] com.example.aop.LoggerAspect             : void com.example.ioc.implementaciones.ServicioCadenasImpl.add(String) executed.
+2026-10-20T13:49:59.337+02:00  WARN 5456 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T13:49:59.338+02:00  INFO 5456 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T13:50:27.594+02:00  INFO 5456 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T13:50:27.595+02:00  INFO 5456 --- [demo] [Thread-9] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T13:50:27.614+02:00  INFO 5456 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T13:50:27.738+02:00  INFO 5456 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 5456 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T13:50:27.738+02:00  INFO 5456 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T13:50:28.084+02:00  INFO 5456 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T13:50:28.085+02:00  INFO 5456 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T13:50:28.085+02:00  INFO 5456 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T13:50:28.110+02:00  INFO 5456 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 367 ms
+2026-10-20T13:50:28.424+02:00  INFO 5456 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T13:50:28.437+02:00  INFO 5456 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.735 seconds (process running for 2767.727)
+2026-10-20T13:50:28.439+02:00  WARN 5456 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T13:50:28.441+02:00  WARN 5456 --- [demo] [restartedMain] com.example.aop.LoggerAspect             : void com.example.ioc.implementaciones.ServicioCadenasImpl.add(String) executing.
+2026-10-20T13:50:28.442+02:00  WARN 5456 --- [demo] [restartedMain] com.example.aop.LoggerAspect             : void com.example.ioc.implementaciones.ServicioCadenasImpl.add(String) executed.
+2026-10-20T13:50:28.444+02:00  INFO 5456 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   DefaultTaskSchedulerConfiguration matched:
+      - @ConditionalOnMissingBean (names: taskScheduler; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DefaultTaskSchedulerConfiguration#taskSchedulerVirtualThreads matched:
+      - @ConditionalOnBean (types: org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder; SearchStrategy: all) found bean 'simpleAsyncTaskSchedulerBuilder' (OnBeanCondition)
+      - @ConditionalOnThreading found VIRTUAL (OnThreadingCondition)
+
+   TaskSchedulingAutoConfiguration#scheduledBeanLazyInitializationExcludeFilter matched:
+      - @ConditionalOnBean (names: org.springframework.scheduling.config.internalScheduledAnnotationProcessor; SearchStrategy: all) found bean 'org.springframework.scheduling.config.internalScheduledAnnotationProcessor' (OnBeanCondition)
+
+   TaskSchedulingConfigurations.TaskSchedulerConfiguration matched:
+      - @ConditionalOnBean (names: org.springframework.scheduling.config.internalScheduledAnnotationProcessor; SearchStrategy: all) found bean 'org.springframework.scheduling.config.internalScheduledAnnotationProcessor'; @ConditionalOnMissingBean (types: org.springframework.scheduling.TaskScheduler,java.util.concurrent.ScheduledExecutorService; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   DefaultTaskSchedulerConfiguration#taskScheduler:
+      Did not match:
+         - @ConditionalOnThreading did not find PLATFORM (OnThreadingCondition)
+      Matched:
+         - @ConditionalOnBean (types: org.springframework.boot.task.ThreadPoolTaskSchedulerBuilder; SearchStrategy: all) found bean 'threadPoolTaskSchedulerBuilder' (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-10-20T13:50:37.132+02:00  INFO 5456 --- [demo] [RMI TCP Connection(51)-172.19.48.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-10-20T13:50:37.133+02:00  INFO 5456 --- [demo] [RMI TCP Connection(51)-172.19.48.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T13:50:37.151+02:00  INFO 5456 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T13:50:46.430+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 7764 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T13:50:46.434+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T13:50:46.512+02:00  INFO 7764 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-20T13:50:46.512+02:00  INFO 7764 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-20T13:50:48.224+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T13:50:48.243+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T13:50:48.244+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T13:50:48.306+02:00  INFO 7764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1793 ms
+2026-10-20T13:50:49.201+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T13:50:49.215+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 3.495 seconds (process running for 4.462)
+2026-10-20T13:50:49.221+02:00  WARN 7764 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T13:50:49.228+02:00  WARN 7764 --- [demo] [restartedMain] com.example.aop.LoggerAspect             : void com.example.ioc.implementaciones.ServicioCadenasImpl.add(String) executing.
+2026-10-20T13:50:49.230+02:00  WARN 7764 --- [demo] [restartedMain] com.example.aop.LoggerAspect             : void com.example.ioc.implementaciones.ServicioCadenasImpl.add(String) executed.
+2026-10-20T13:51:47.297+02:00  INFO 7764 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T13:51:47.302+02:00  INFO 7764 --- [demo] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T13:51:47.322+02:00  INFO 7764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T13:51:47.459+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 7764 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T13:51:47.459+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T13:51:47.839+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T13:51:47.840+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T13:51:47.841+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T13:51:47.865+02:00  INFO 7764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 402 ms
+2026-10-20T13:51:48.229+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T13:51:48.235+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.814 seconds (process running for 63.483)
+2026-10-20T13:51:48.241+02:00  WARN 7764 --- [demo] [restartedMain] com.example.aop.LoggerAspect             : void com.example.ioc.implementaciones.ServicioCadenasImpl.add(String) executing.
+2026-10-20T13:51:48.244+02:00  WARN 7764 --- [demo] [restartedMain] com.example.aop.LoggerAspect             : void com.example.ioc.implementaciones.ServicioCadenasImpl.add(String) executed.
+2026-10-20T13:51:48.246+02:00  WARN 7764 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T13:51:48.247+02:00  INFO 7764 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T13:52:57.633+02:00  INFO 7764 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T13:52:57.634+02:00  INFO 7764 --- [demo] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T13:52:57.653+02:00  INFO 7764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T13:52:57.820+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 7764 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T13:52:57.820+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T13:52:58.220+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T13:52:58.221+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T13:52:58.221+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T13:52:58.249+02:00  INFO 7764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 426 ms
+2026-10-20T13:52:58.617+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T13:52:58.626+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.86 seconds (process running for 133.874)
+2026-10-20T13:52:58.628+02:00  WARN 7764 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T13:52:58.635+02:00  WARN 7764 --- [demo] [restartedMain] com.example.aop.LoggerAspect             : void com.example.ioc.implementaciones.ServicioCadenasImpl.add(String) executing.
+2026-10-20T13:52:58.637+02:00  WARN 7764 --- [demo] [restartedMain] com.example.aop.LoggerAspect             : void com.example.ioc.implementaciones.ServicioCadenasImpl.add(String) executed.
+2026-10-20T13:52:58.638+02:00  INFO 7764 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T14:02:43.080+02:00  INFO 7764 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T14:02:43.086+02:00  INFO 7764 --- [demo] [Thread-9] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T14:02:43.111+02:00  INFO 7764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T14:02:43.328+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 7764 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T14:02:43.329+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T14:02:43.722+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T14:02:43.724+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T14:02:43.724+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T14:02:43.751+02:00  INFO 7764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 416 ms
+2026-10-20T14:02:44.140+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T14:02:44.144+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.918 seconds (process running for 719.392)
+2026-10-20T14:02:44.149+02:00  WARN 7764 --- [demo] [restartedMain] com.example.aop.LoggerAspect             : void com.example.ioc.implementaciones.ServicioCadenasImpl.add(String) executing.
+2026-10-20T14:02:44.151+02:00  WARN 7764 --- [demo] [restartedMain] com.example.aop.LoggerAspect             : void com.example.ioc.implementaciones.ServicioCadenasImpl.add(String) executed.
+2026-10-20T14:02:44.152+02:00  WARN 7764 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T14:02:44.153+02:00  INFO 7764 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T14:04:26.386+02:00  INFO 7764 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T14:04:26.387+02:00  INFO 7764 --- [demo] [Thread-13] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T14:04:26.402+02:00  INFO 7764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T14:04:26.501+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 7764 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T14:04:26.502+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T14:04:26.801+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T14:04:26.802+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T14:04:26.802+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T14:04:26.826+02:00  INFO 7764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 321 ms
+2026-10-20T14:04:27.137+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T14:04:27.143+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.68 seconds (process running for 822.391)
+2026-10-20T14:04:27.145+02:00  WARN 7764 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T14:04:34.858+02:00  INFO 7764 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T14:06:09.572+02:00  INFO 7764 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T14:06:09.574+02:00  INFO 7764 --- [demo] [Thread-17] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T14:06:09.589+02:00  INFO 7764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T14:06:09.733+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 7764 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T14:06:09.734+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T14:06:10.017+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T14:06:10.018+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T14:06:10.019+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T14:06:10.043+02:00  INFO 7764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 297 ms
+2026-10-20T14:06:10.401+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T14:06:10.403+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.707 seconds (process running for 925.65)
+2026-10-20T14:06:10.404+02:00  WARN 7764 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T14:06:10.409+02:00  INFO 7764 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T14:09:55.481+02:00  INFO 7764 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T14:09:55.482+02:00  INFO 7764 --- [demo] [Thread-21] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T14:09:55.497+02:00  INFO 7764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T14:09:55.648+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 7764 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T14:09:55.648+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T14:09:55.927+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T14:09:55.929+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T14:09:55.929+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T14:09:55.949+02:00  INFO 7764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 298 ms
+2026-10-20T14:09:56.327+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T14:09:56.329+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.722 seconds (process running for 1151.577)
+2026-10-20T14:09:56.331+02:00  WARN 7764 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T14:10:00.035+02:00  INFO 7764 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T14:11:00.539+02:00  INFO 7764 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T14:11:00.540+02:00  INFO 7764 --- [demo] [Thread-25] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T14:11:00.556+02:00  INFO 7764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T14:11:00.685+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 7764 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T14:11:00.685+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T14:11:00.969+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T14:11:00.970+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T14:11:00.970+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T14:11:00.996+02:00  INFO 7764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 308 ms
+2026-10-20T14:11:01.370+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T14:11:01.374+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.717 seconds (process running for 1216.621)
+2026-10-20T14:11:01.395+02:00  WARN 7764 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T14:11:01.398+02:00  INFO 7764 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T14:11:59.519+02:00  INFO 7764 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T14:11:59.520+02:00  INFO 7764 --- [demo] [Thread-29] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T14:11:59.536+02:00  INFO 7764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T14:11:59.673+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 7764 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T14:11:59.673+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T14:11:59.921+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T14:11:59.921+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T14:11:59.922+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T14:11:59.943+02:00  INFO 7764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 267 ms
+2026-10-20T14:12:00.294+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T14:12:00.297+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.659 seconds (process running for 1275.544)
+2026-10-20T14:12:00.301+02:00  INFO 7764 --- [demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-20T14:12:00.325+02:00 ERROR 7764 --- [demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.NullPointerException: Cannot invoke "com.example.base.DummyAsync.ejecutarTareaSimpleAsync(int)" because "this.self" is null
+	at com.example.base.DummyAsync.ejecutarAutoInvocado(DummyAsync.java:21) ~[classes/:na]
+	at com.example.DemoApplication.lambda$10(DemoApplication.java:216) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$1(SpringApplication.java:792) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:800) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$0(SpringApplication.java:776) ~[spring-boot-4.1.1.jar:4.1.1]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:776) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:328) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at com.example.DemoApplication.main(DemoApplication.java:49) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+
+2026-10-20T14:12:00.334+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T14:12:00.350+02:00  INFO 7764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T14:12:32.689+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 7764 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T14:12:32.690+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T14:12:32.970+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T14:12:32.971+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T14:12:32.971+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T14:12:32.991+02:00  INFO 7764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 299 ms
+2026-10-20T14:12:33.385+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T14:12:33.389+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.731 seconds (process running for 1308.636)
+2026-10-20T14:12:41.099+02:00  WARN 7764 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T14:12:41.100+02:00  INFO 7764 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T14:14:13.686+02:00  INFO 7764 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T14:14:13.688+02:00  INFO 7764 --- [demo] [Thread-33] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T14:14:13.703+02:00  INFO 7764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T14:14:13.842+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 7764 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T14:14:13.843+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T14:14:14.169+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T14:14:14.170+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T14:14:14.170+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T14:14:14.194+02:00  INFO 7764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 347 ms
+2026-10-20T14:14:14.609+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T14:14:14.613+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.814 seconds (process running for 1409.86)
+2026-10-20T14:14:14.615+02:00  WARN 7764 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T14:14:14.617+02:00  INFO 7764 --- [demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-20T14:14:14.626+02:00 ERROR 7764 --- [demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.NullPointerException: Cannot invoke "com.example.base.DummyAsync.ejecutarTareaSimpleAsync(int)" because "this.self" is null
+	at com.example.base.DummyAsync.ejecutarAutoInvocado(DummyAsync.java:21) ~[classes/:na]
+	at com.example.DemoApplication.lambda$10(DemoApplication.java:216) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$1(SpringApplication.java:792) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-7.0.9.jar:7.0.9]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:800) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$0(SpringApplication.java:776) ~[spring-boot-4.1.1.jar:4.1.1]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:776) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:328) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at com.example.DemoApplication.main(DemoApplication.java:49) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+
+2026-10-20T14:14:14.631+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T14:14:14.661+02:00  INFO 7764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T14:14:31.585+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 7764 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T14:14:31.586+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T14:14:31.866+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T14:14:31.867+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T14:14:31.867+02:00  INFO 7764 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T14:14:31.891+02:00  INFO 7764 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 303 ms
+2026-10-20T14:14:32.236+02:00  INFO 7764 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T14:14:32.239+02:00  INFO 7764 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.679 seconds (process running for 1427.487)
+2026-10-20T14:14:32.261+02:00  WARN 7764 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T14:14:32.270+02:00  INFO 7764 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
