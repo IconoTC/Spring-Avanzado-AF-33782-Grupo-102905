@@ -1,6 +1,7 @@
 package com.example;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.springframework.aop.aspectj.annotation.AspectJProxyFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,11 +14,17 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.context.event.EventListener;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
+import org.springframework.resilience.annotation.EnableResilientMethods;
+import org.springframework.scheduling.annotation.EnableAsync;
+import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.scheduling.annotation.Scheduled;
 
 import com.example.aop.AuthenticationService;
 import com.example.aop.introductions.Visible;
 import com.example.aop.introductions.VisibleAspect;
+import com.example.base.DummyAsync;
 import com.example.base.DummyJSpecify;
+import com.example.base.DummyRetry;
 import com.example.ioc.GenericoEvent;
 import com.example.ioc.NotificationService;
 import com.example.ioc.Rango;
@@ -30,8 +37,11 @@ import com.example.ioc.implementaciones.ServicioCadenasImpl;
 import com.example.ioc.notificaciones.Sender;
 import com.example.ioc.notificaciones.TwitterSender;
 
+//@EnableAsync
+//@EnableScheduling
 @SpringBootApplication
 @EnableAspectJAutoProxy
+//@EnableResilientMethods
 public class DemoApplication implements CommandLineRunner {
 	private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DemoApplication.class);
 	
@@ -69,7 +79,7 @@ public class DemoApplication implements CommandLineRunner {
 	@Autowired
 	NotificationService notify;
 	
-//	@Bean
+	@Bean
 	CommandLineRunner ioc(ServicioCadenas srv, String otroAutor, @Value("${spring.application.name}") String nombre, Rango rango, 
 			AuthenticationService auth) {
 		return arg -> {
@@ -162,7 +172,8 @@ public class DemoApplication implements CommandLineRunner {
 			
 		};
 	}
-	@Bean
+	
+//	@Bean
 	CommandLineRunner generarProxyManual() {
 		return arg -> {
 			var target = new TwitterSender();
@@ -183,6 +194,76 @@ public class DemoApplication implements CommandLineRunner {
 				System.err.println("NO implementa el interfaz Visible.");
 			}
 			
+		};
+	}
+	@Scheduled(timeUnit = TimeUnit.SECONDS, fixedRate = 5, initialDelay = 5)
+	void mostrarNotificaciones() {
+		 IO.println("Han pasado 5 segundos");
+//		if (notify.hasMessages()) {
+//			IO.println("==============>");
+//			notify.getListado().forEach(IO::println);
+//			notify.clear();
+//			IO.println("<==============");
+//		}
+	}
+
+//	@Bean
+	CommandLineRunner asincrono(DummyAsync dummy) {
+		return arg -> {
+			var obj = dummy; // new DummyAsync();
+			System.err.println(obj.getClass().getCanonicalName());
+//			obj.ejecutarAutoInvocado(1);
+//			obj.ejecutarAutoInvocado(2);
+			obj.ejecutarTareaSimpleAsync(1);
+			obj.ejecutarTareaSimpleAsync(2);
+			obj.calcularResultadoAsync(10, 20, 30, 40, 50).thenAccept(result -> notify.add(result));
+			obj.calcularResultadoAsync(1, 2, 3).thenAccept(result -> notify.add(result));
+			obj.calcularResultadoAsync().thenAccept(result -> notify.add(result));
+			System.err.println("Termino de mandar hacer las cosas");
+		};
+	}
+
+//	@Bean
+	CommandLineRunner resiliencia(DummyRetry dummy) {
+		return arg -> {
+			IO.println("ReintentaConAnotacion (3)");
+			try {
+				IO.println("------------------> reintentaConAnotacion: " + dummy.reintentaConAnotacion(3));
+			} catch (Exception e) {
+				System.err.println("ERROR: REINTENTOS AGOTADOS reintentaConAnotacion 3: " + e.getMessage());
+			}
+			dummy.reinicia();
+			IO.println("ReintentaConAnotacion (5)");
+			try {
+				IO.println("------------------> reintentaConAnotacion: " + dummy.reintentaConAnotacion(5));
+			} catch (Exception e) {
+				System.err.println("ERROR: REINTENTOS AGOTADOS reintentaConAnotacion 5: " + e.getMessage());
+			}
+			dummy.reinicia();
+			IO.println("ReintentaConTemplate (3)");
+			try {
+				IO.println("------------------> reintentaConTemplate: " + dummy.reintentaConTemplate(3));
+			} catch (Exception e) {
+				System.err.println("ERROR: REINTENTOS AGOTADOS reintentaConTemplate: " + e.getMessage());
+			}
+			dummy.reinicia();
+			IO.println("ReintentaConTemplate (5)");
+			try {
+				IO.println("------------------> reintentaConTemplate: " + dummy.reintentaConTemplate(5));
+			} catch (Exception e) {
+				System.err.println("ERROR: REINTENTOS AGOTADOS reintentaConTemplate: " + e.getMessage());
+			}
+		};
+	}
+
+//	@Bean
+	CommandLineRunner limites(DummyRetry dummy, DummyAsync obj) {
+		return arg -> {
+			for (var i = 1; ++i <= 10;) {
+				obj.calcularResultadoAsync(10 * i, 20 * i, 30 * i, 40 * i, 50 * i).exceptionally(e -> {
+					return "ERROR %s".formatted(e.getMessage());
+				}).thenAccept(result -> notify.add(result));
+			}
 		};
 	}
 

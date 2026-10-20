@@ -1012,3 +1012,423 @@ java.lang.ClassCastException: class jdk.proxy33.$Proxy150 cannot be cast to clas
 2026-10-20T12:23:43.387+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 1.314 seconds (process running for 3952.592)
 2026-10-20T12:23:43.389+02:00  WARN 28208 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
 2026-10-20T12:23:43.399+02:00  INFO 28208 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T12:34:04.933+02:00  INFO 28208 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)
+2026-10-20T12:34:04.936+02:00  INFO 28208 --- [demo] [Thread-129] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T12:34:04.950+02:00  INFO 28208 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T12:34:05.116+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 28208 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T12:34:05.116+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T12:34:05.388+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T12:34:05.390+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T12:34:05.391+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T12:34:05.412+02:00  INFO 28208 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 291 ms
+2026-10-20T12:34:05.786+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T12:34:05.788+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.718 seconds (process running for 4574.994)
+2026-10-20T12:34:05.796+02:00  WARN 28208 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T12:34:05.797+02:00  INFO 28208 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T12:37:06.619+02:00  INFO 28208 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T12:37:06.621+02:00  INFO 28208 --- [demo] [Thread-133] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T12:37:06.650+02:00  INFO 28208 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T12:37:06.858+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 28208 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T12:37:06.860+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T12:37:07.337+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T12:37:07.345+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T12:37:07.346+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T12:37:07.377+02:00  INFO 28208 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 511 ms
+2026-10-20T12:37:07.774+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T12:37:07.777+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.975 seconds (process running for 4756.983)
+2026-10-20T12:37:07.784+02:00  WARN 28208 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T12:37:07.785+02:00  INFO 28208 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T12:39:16.816+02:00  INFO 28208 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T12:39:16.816+02:00  INFO 28208 --- [demo] [Thread-137] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T12:39:16.834+02:00  INFO 28208 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T12:39:16.972+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 28208 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T12:39:16.974+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T12:39:17.325+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T12:39:17.327+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T12:39:17.327+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T12:39:17.354+02:00  INFO 28208 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 376 ms
+2026-10-20T12:39:17.719+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T12:39:17.721+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.784 seconds (process running for 4886.926)
+2026-10-20T12:39:17.727+02:00  WARN 28208 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T12:39:17.727+02:00  INFO 28208 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T12:40:20.176+02:00  INFO 28208 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T12:40:20.178+02:00  INFO 28208 --- [demo] [Thread-141] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T12:40:20.192+02:00  INFO 28208 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T12:40:20.315+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 28208 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T12:40:20.315+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T12:40:20.625+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T12:40:20.627+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T12:40:20.627+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T12:40:20.650+02:00  INFO 28208 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 331 ms
+2026-10-20T12:40:21.001+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T12:40:21.002+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.72 seconds (process running for 4950.208)
+2026-10-20T12:40:21.003+02:00  WARN 28208 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T12:40:21.010+02:00  INFO 28208 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T12:41:04.615+02:00  INFO 28208 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T12:41:04.617+02:00  INFO 28208 --- [demo] [Thread-145] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T12:41:04.632+02:00  INFO 28208 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T12:41:04.736+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 28208 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T12:41:04.737+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T12:41:05.041+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T12:41:05.042+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T12:41:05.042+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T12:41:05.063+02:00  INFO 28208 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 324 ms
+2026-10-20T12:41:05.369+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T12:41:05.373+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.672 seconds (process running for 4994.579)
+2026-10-20T12:41:05.380+02:00  WARN 28208 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T12:41:05.381+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T12:41:05.391+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T12:41:06.395+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T12:41:07.397+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T12:41:08.398+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T12:41:09.399+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T12:41:10.399+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T12:41:10.400+02:00  INFO 28208 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T12:45:56.467+02:00  INFO 28208 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T12:45:56.468+02:00  INFO 28208 --- [demo] [Thread-149] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T12:45:56.482+02:00  INFO 28208 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T12:45:56.580+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 28208 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T12:45:56.581+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T12:45:56.883+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T12:45:56.885+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T12:45:56.885+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T12:45:56.914+02:00  INFO 28208 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 329 ms
+2026-10-20T12:45:57.208+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T12:45:57.212+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.664 seconds (process running for 5286.417)
+2026-10-20T12:45:57.213+02:00  WARN 28208 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T12:45:57.213+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T12:45:57.214+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T12:45:57.215+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T12:45:58.217+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T12:45:59.218+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T12:46:00.220+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T12:46:01.221+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T12:46:02.222+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T12:46:02.223+02:00  INFO 28208 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T12:48:59.552+02:00  INFO 28208 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T12:48:59.554+02:00  INFO 28208 --- [demo] [Thread-153] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T12:48:59.568+02:00  INFO 28208 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T12:48:59.708+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 28208 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T12:48:59.709+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T12:49:00.080+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T12:49:00.084+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T12:49:00.084+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T12:49:00.109+02:00  INFO 28208 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 393 ms
+2026-10-20T12:49:00.521+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T12:49:00.523+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.852 seconds (process running for 5469.728)
+2026-10-20T12:49:00.530+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T12:49:01.531+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T12:49:02.533+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T12:49:03.534+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T12:49:04.535+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T12:49:05.536+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T12:49:05.537+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T12:49:06.538+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T12:49:07.540+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T12:49:08.541+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T12:49:09.544+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T12:49:10.546+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T12:49:10.546+02:00  WARN 28208 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T12:49:10.546+02:00  INFO 28208 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T12:53:46.600+02:00  INFO 28208 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T12:53:46.601+02:00  INFO 28208 --- [demo] [Thread-157] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T12:53:46.614+02:00  INFO 28208 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T12:53:46.753+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 28208 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T12:53:46.753+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T12:53:47.053+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T12:53:47.056+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T12:53:47.057+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T12:53:47.082+02:00  INFO 28208 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 325 ms
+2026-10-20T12:53:47.481+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T12:53:47.484+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.764 seconds (process running for 5756.689)
+2026-10-20T12:53:47.485+02:00  WARN 28208 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T12:53:47.487+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T12:53:48.489+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T12:53:49.490+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T12:53:50.492+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T12:53:51.493+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T12:53:52.494+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T12:53:52.496+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T12:53:53.497+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T12:53:54.498+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T12:53:55.499+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T12:53:56.500+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T12:53:57.501+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T12:53:57.502+02:00  INFO 28208 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T12:54:49.551+02:00  INFO 28208 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-10-20T12:54:49.552+02:00  INFO 28208 --- [demo] [Thread-161] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T12:54:49.569+02:00  INFO 28208 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T12:54:49.674+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 28208 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T12:54:49.675+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T12:54:49.953+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T12:54:49.953+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T12:54:49.953+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T12:54:49.973+02:00  INFO 28208 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 294 ms
+2026-10-20T12:54:50.358+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T12:54:50.361+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.726 seconds (process running for 5819.567)
+2026-10-20T12:54:50.363+02:00  WARN 28208 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T12:54:50.366+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T12:54:51.368+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T12:54:52.369+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T12:54:53.370+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T12:54:54.371+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T12:54:55.373+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T12:54:55.374+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T12:54:56.375+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T12:54:57.376+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T12:54:58.377+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T12:54:59.378+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T12:55:00.378+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T12:55:01.380+02:00  INFO 28208 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T12:55:44.205+02:00  INFO 28208 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-10-20T12:55:44.206+02:00  INFO 28208 --- [demo] [Thread-165] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T12:55:44.222+02:00  INFO 28208 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T12:55:44.333+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 28208 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T12:55:44.334+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T12:55:44.635+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T12:55:44.636+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T12:55:44.636+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T12:55:44.657+02:00  INFO 28208 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 321 ms
+2026-10-20T12:55:44.999+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T12:55:45.002+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.704 seconds (process running for 5874.208)
+2026-10-20T12:55:45.005+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T12:55:46.007+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T12:55:47.010+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T12:55:48.011+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T12:55:49.012+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T12:55:50.014+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T12:55:50.015+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T12:55:51.018+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T12:55:52.018+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T12:55:53.019+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T12:55:54.020+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T12:55:55.021+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T12:55:55.021+02:00  WARN 28208 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T12:55:55.022+02:00  INFO 28208 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T12:58:19.053+02:00  INFO 28208 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T12:58:19.055+02:00  INFO 28208 --- [demo] [Thread-169] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T12:58:19.070+02:00  INFO 28208 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T12:58:19.217+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 28208 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T12:58:19.218+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T12:58:19.502+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T12:58:19.505+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T12:58:19.505+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T12:58:19.525+02:00  INFO 28208 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 297 ms
+2026-10-20T12:58:19.955+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T12:58:19.960+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.775 seconds (process running for 6029.165)
+2026-10-20T12:58:19.961+02:00  WARN 28208 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T12:58:19.962+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T12:58:20.962+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T12:58:21.965+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T12:58:22.974+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T12:58:23.981+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T12:58:24.982+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T12:58:24.984+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T12:58:25.985+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T12:58:26.986+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T12:58:27.988+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T12:58:28.989+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T12:58:29.990+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T12:58:29.992+02:00  INFO 28208 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   DefaultTaskSchedulerConfiguration matched:
+      - @ConditionalOnMissingBean (names: taskScheduler; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DefaultTaskSchedulerConfiguration#taskScheduler matched:
+      - @ConditionalOnBean (types: org.springframework.boot.task.ThreadPoolTaskSchedulerBuilder; SearchStrategy: all) found bean 'threadPoolTaskSchedulerBuilder' (OnBeanCondition)
+      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
+
+   TaskSchedulingAutoConfiguration#scheduledBeanLazyInitializationExcludeFilter matched:
+      - @ConditionalOnBean (names: org.springframework.scheduling.config.internalScheduledAnnotationProcessor; SearchStrategy: all) found bean 'org.springframework.scheduling.config.internalScheduledAnnotationProcessor' (OnBeanCondition)
+
+   TaskSchedulingConfigurations.TaskSchedulerConfiguration matched:
+      - @ConditionalOnBean (names: org.springframework.scheduling.config.internalScheduledAnnotationProcessor; SearchStrategy: all) found bean 'org.springframework.scheduling.config.internalScheduledAnnotationProcessor'; @ConditionalOnMissingBean (types: org.springframework.scheduling.TaskScheduler,java.util.concurrent.ScheduledExecutorService; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   DefaultTaskSchedulerConfiguration#taskSchedulerVirtualThreads:
+      Did not match:
+         - @ConditionalOnThreading did not find VIRTUAL (OnThreadingCondition)
+      Matched:
+         - @ConditionalOnBean (types: org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder; SearchStrategy: all) found bean 'simpleAsyncTaskSchedulerBuilder' (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-10-20T12:59:05.546+02:00  INFO 28208 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T12:59:05.548+02:00  INFO 28208 --- [demo] [Thread-173] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T12:59:05.565+02:00  INFO 28208 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T12:59:05.708+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 28208 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T12:59:05.709+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T12:59:05.993+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T12:59:05.995+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T12:59:05.995+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T12:59:06.019+02:00  INFO 28208 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 307 ms
+2026-10-20T12:59:06.503+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T12:59:06.513+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.838 seconds (process running for 6075.718)
+2026-10-20T12:59:06.516+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T12:59:07.518+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T12:59:08.520+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T12:59:09.521+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T12:59:10.522+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T12:59:11.523+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T12:59:11.525+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T12:59:12.526+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T12:59:13.529+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T12:59:14.117+02:00  INFO 28208 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T12:59:14.118+02:00  INFO 28208 --- [demo] [Thread-177] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T12:59:14.135+02:00  INFO 28208 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T12:59:14.278+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 28208 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T12:59:14.278+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T12:59:14.531+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T12:59:14.563+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T12:59:14.563+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T12:59:14.565+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T12:59:14.586+02:00  INFO 28208 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 305 ms
+2026-10-20T12:59:15.028+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T12:59:15.030+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.786 seconds (process running for 6084.236)
+2026-10-20T12:59:15.032+02:00  WARN 28208 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T12:59:15.035+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T12:59:15.533+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T12:59:16.035+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T12:59:16.535+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T12:59:16.535+02:00  WARN 28208 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T12:59:17.037+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T12:59:18.038+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T12:59:19.039+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T12:59:20.041+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T12:59:20.042+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 3
+2026-10-20T12:59:21.043+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 3
+2026-10-20T12:59:22.045+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 1 intento de 5
+2026-10-20T12:59:23.047+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 2 intento de 5
+2026-10-20T12:59:24.049+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 3 intento de 5
+2026-10-20T12:59:25.050+02:00 ERROR 28208 --- [demo] [restartedMain] com.example.base.DummyRetry              : 4 intento de 5
+2026-10-20T12:59:25.052+02:00  INFO 28208 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T13:00:09.150+02:00  INFO 28208 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T13:00:09.151+02:00  INFO 28208 --- [demo] [Thread-181] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T13:00:09.170+02:00  INFO 28208 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T13:00:09.338+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 28208 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T13:00:09.339+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T13:00:09.701+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T13:00:09.706+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T13:00:09.706+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T13:00:09.765+02:00  INFO 28208 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 424 ms
+2026-10-20T13:00:10.197+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T13:00:10.200+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.9 seconds (process running for 6139.405)
+2026-10-20T13:00:10.200+02:00  WARN 28208 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T13:00:10.207+02:00  INFO 28208 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T13:00:53.739+02:00  INFO 28208 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T13:00:53.741+02:00  INFO 28208 --- [demo] [Thread-185] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T13:00:53.756+02:00  INFO 28208 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T13:00:53.900+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 28208 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T13:00:53.900+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T13:00:54.219+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T13:00:54.219+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T13:00:54.220+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T13:00:54.240+02:00  INFO 28208 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 334 ms
+2026-10-20T13:00:54.639+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T13:00:54.643+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.78 seconds (process running for 6183.848)
+2026-10-20T13:00:54.644+02:00  WARN 28208 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T13:00:54.648+02:00  INFO 28208 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T13:01:22.740+02:00  INFO 28208 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T13:01:22.742+02:00  INFO 28208 --- [demo] [Thread-189] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T13:01:22.755+02:00  INFO 28208 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T13:01:22.906+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 28208 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T13:01:22.906+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T13:01:23.198+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T13:01:23.199+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T13:01:23.199+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T13:01:23.219+02:00  INFO 28208 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 311 ms
+2026-10-20T13:01:23.650+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T13:01:23.653+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.775 seconds (process running for 6212.858)
+2026-10-20T13:01:23.656+02:00  WARN 28208 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T13:01:23.656+02:00  INFO 28208 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-20T13:02:45.321+02:00  INFO 28208 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-20T13:02:45.322+02:00  INFO 28208 --- [demo] [Thread-193] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T13:02:45.339+02:00  INFO 28208 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T13:02:45.535+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 28208 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T13:02:45.535+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T13:02:45.893+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T13:02:45.895+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T13:02:45.896+02:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T13:02:45.922+02:00  INFO 28208 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 383 ms
+2026-10-20T13:02:46.310+02:00  INFO 28208 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T13:02:46.312+02:00  INFO 28208 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.819 seconds (process running for 6295.518)
+2026-10-20T13:03:08.856+02:00  WARN 28208 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-20T13:03:08.856+02:00  INFO 28208 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   TaskSchedulingAutoConfiguration#scheduledBeanLazyInitializationExcludeFilter:
+      Did not match:
+         - @ConditionalOnBean (names: org.springframework.scheduling.config.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.scheduling.config.internalScheduledAnnotationProcessor (OnBeanCondition)
+
+   TaskSchedulingConfigurations.TaskSchedulerConfiguration:
+      Did not match:
+         - @ConditionalOnBean (names: org.springframework.scheduling.config.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.scheduling.config.internalScheduledAnnotationProcessor (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-10-20T13:04:11.826+02:00  INFO 28208 --- [demo] [RMI TCP Connection(163)-172.19.48.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-10-20T13:04:11.826+02:00  INFO 28208 --- [demo] [RMI TCP Connection(163)-172.19.48.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-20T13:04:11.841+02:00  INFO 28208 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-20T13:04:22.122+02:00  INFO 5456 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 5456 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-20T13:04:22.127+02:00  INFO 5456 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-20T13:04:22.205+02:00  INFO 5456 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-20T13:04:22.205+02:00  INFO 5456 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-20T13:04:23.899+02:00  INFO 5456 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-20T13:04:23.920+02:00  INFO 5456 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-20T13:04:23.920+02:00  INFO 5456 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-20T13:04:23.970+02:00  INFO 5456 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1764 ms
+2026-10-20T13:04:24.862+02:00  INFO 5456 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-20T13:04:24.871+02:00  INFO 5456 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 3.433 seconds (process running for 4.162)
+2026-10-20T13:04:24.884+02:00  WARN 5456 --- [demo] [restartedMain] com.example.aop.LoggerAspect             : void com.example.ioc.implementaciones.ServicioCadenasImpl.add(String) executing.
+2026-10-20T13:04:24.887+02:00  WARN 5456 --- [demo] [restartedMain] com.example.aop.LoggerAspect             : void com.example.ioc.implementaciones.ServicioCadenasImpl.add(String) executed.
+2026-10-20T13:04:24.889+02:00  WARN 5456 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
