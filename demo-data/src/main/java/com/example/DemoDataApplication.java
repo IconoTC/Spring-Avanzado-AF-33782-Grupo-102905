@@ -72,6 +72,21 @@ public class DemoDataApplication {
 	}
 	
 //	@Bean
+	CommandLineRunner validaciones(ActoresRepository dao) {
+		return arg -> {
+			var a = new Actor("PP", "12345678z");
+			if(a.isInvalid()) {
+				System.err.println(a.getErrorsMessage());
+			} else
+			try {
+				a = dao.save(a);				
+			} catch (Exception ex) {
+				ex.printStackTrace();
+			}
+		};
+	}
+	
+//	@Bean
 	CommandLineRunner crud(ActoresRepository dao) {
 		return arg -> {
 			var a = new Actor("pepito", "grillo");
