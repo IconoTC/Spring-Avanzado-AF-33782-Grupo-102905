@@ -45,12 +45,12 @@ public class DemoDataApplication {
 //				});				
 //			});
 //			self.conexionAbierta(dao);
-			try {
-				self.transaccion(dao);
-				System.err.println("OK");
-			} catch (Exception ex) {
-				System.err.println(ex.getMessage());
-			}
+//			try {
+//				self.transaccion(dao);
+//				System.err.println("OK");
+//			} catch (Exception ex) {
+//				System.err.println(ex.getMessage());
+//			}
 		};
 	}
 	
