@@ -16,6 +16,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.NamedQuery;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.Size;
 
 
 /**
@@ -41,6 +42,7 @@ public class Category implements Serializable {
 
 	@Column(nullable=false, length=25)
 	@JsonProperty("categoria")
+	@Size(max = 25)
 	private String name;
 
 	//bi-directional many-to-one association to FilmCategory
