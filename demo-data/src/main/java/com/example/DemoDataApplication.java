@@ -139,10 +139,10 @@ public class DemoDataApplication {
 //			IO.println(json.writeValueAsString(dao.findByActorIdGreaterThanEqual(204, ActorDTO.class)));
 //			IO.println(json.writeValueAsString(dao.findByActorIdGreaterThanEqual(204, ActorShort.class)));
 //			IO.println(json.writeValueAsString(dao.findByActorIdGreaterThanEqual(204, SoloNombre.class)));
-//			var dto = json.readValue("{\"apellidos\":\"grillo\",\"id\":208,\"nombre\":\"pepito\"}", ActorDTO.class);
-//			IO.println(dto);
-//			IO.println(ActorDTO.from(dto));
-			IO.println(json.writeValueAsString(dao.findByActorIdGreaterThanEqual(204)));
+			var dto = json.readValue("{\"apellidos\":\"grillo\",\"id\":208,\"nombre\":\"pepito\"}", ActorDTO.class);
+			IO.println(dto);
+			IO.println(ActorDTO.from(dto));
+//			IO.println(json.writeValueAsString(dao.findByActorIdGreaterThanEqual(204)));
 		};
 	}
 

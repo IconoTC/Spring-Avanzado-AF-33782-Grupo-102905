@@ -3,6 +3,7 @@ package com.example.domain.entities.models;
 import org.springframework.data.annotation.PersistenceCreator;
 
 import com.example.domain.entities.Actor;
+import com.fasterxml.jackson.annotation.JsonCreator;
 
 import lombok.Data;
 
@@ -12,6 +13,7 @@ public class ActorDTO {
 	private String nombre;
 	private String apellidos;
 	
+	@JsonCreator
 	public ActorDTO() {
 	}
 	
