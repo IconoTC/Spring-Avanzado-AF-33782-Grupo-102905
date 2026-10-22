@@ -1,5 +1,7 @@
 package com.example.domain.entities.models;
 
+import org.springframework.data.annotation.PersistenceCreator;
+
 import com.example.domain.entities.Actor;
 
 import lombok.Data;
@@ -10,6 +12,10 @@ public class ActorDTO {
 	private String nombre;
 	private String apellidos;
 	
+	public ActorDTO() {
+	}
+	
+	@PersistenceCreator
 	public ActorDTO(int actorId, String firstName, String lastName) {
 		super();
 		this.id = actorId;

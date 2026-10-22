@@ -10,9 +10,15 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.example.contracts.domain.repositories.ActoresRepository;
+import com.example.contracts.domain.repositories.CategoriasRepository;
 import com.example.domain.entities.Actor;
 import com.example.domain.entities.models.ActorDTO;
 import com.example.domain.entities.models.ActorShort;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import tools.jackson.databind.ObjectMapper;
+import tools.jackson.databind.json.JsonMapper;
+import tools.jackson.dataformat.xml.XmlMapper;
 
 @SpringBootApplication
 public class DemoDataApplication {
@@ -24,9 +30,9 @@ public class DemoDataApplication {
 	}
 	
 //	record SoloNombre(String firstName, @Value("#{target.lastName}") String apellidos) {}
-	record SoloNombre(String firstName, String lastName) {}
+	record SoloNombre(@JsonProperty("nombre") String firstName, @JsonProperty("apellidos") String lastName) {}
 	
-	@Bean
+//	@Bean
 	CommandLineRunner consultas(ActoresRepository dao) {
 		return arg -> {
 //			System.out.println(dao.count());
@@ -121,6 +127,22 @@ public class DemoDataApplication {
 				IO.println("Actor borrado");
 			}
 //			dao.findAll().forEach(System.out::println);
+		};
+	}
+	@Bean
+	CommandLineRunner serializacion(ActoresRepository dao, CategoriasRepository cat, JsonMapper json, XmlMapper xml) {
+		return arg -> {
+			var item = cat.findById(1).get();
+//			IO.println(json.writeValueAsString(item));
+//			IO.println(xml.writeValueAsString(item));
+//			IO.println(json.writeValueAsString(cat.findAll()));
+//			IO.println(json.writeValueAsString(dao.findByActorIdGreaterThanEqual(204, ActorDTO.class)));
+//			IO.println(json.writeValueAsString(dao.findByActorIdGreaterThanEqual(204, ActorShort.class)));
+//			IO.println(json.writeValueAsString(dao.findByActorIdGreaterThanEqual(204, SoloNombre.class)));
+//			var dto = json.readValue("{\"apellidos\":\"grillo\",\"id\":208,\"nombre\":\"pepito\"}", ActorDTO.class);
+//			IO.println(dto);
+//			IO.println(ActorDTO.from(dto));
+			IO.println(json.writeValueAsString(dao.findByActorIdGreaterThanEqual(204)));
 		};
 	}
 

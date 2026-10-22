@@ -4,6 +4,8 @@ import java.io.Serializable;
 import jakarta.persistence.*;
 import java.sql.Timestamp;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 
 /**
  * The persistent class for the film_actor database table.
@@ -24,11 +26,13 @@ public class FilmActor implements Serializable {
 	//bi-directional many-to-one association to Actor
 	@ManyToOne
 @JoinColumn(name="actor_id", nullable=false, insertable=false, updatable=false)
+	@JsonManagedReference
 	private Actor actor;
 
 	//bi-directional many-to-one association to Film
 	@ManyToOne
 @JoinColumn(name="film_id", nullable=false, insertable=false, updatable=false)
+	@JsonManagedReference
 	private Film film;
 
 	public FilmActor() {
