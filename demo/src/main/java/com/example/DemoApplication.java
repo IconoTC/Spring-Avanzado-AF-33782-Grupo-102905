@@ -25,6 +25,7 @@ import com.example.aop.introductions.VisibleAspect;
 import com.example.base.DummyAsync;
 import com.example.base.DummyJSpecify;
 import com.example.base.DummyRetry;
+import com.example.contracts.application.services.MessagingService;
 import com.example.ioc.GenericoEvent;
 import com.example.ioc.NotificationService;
 import com.example.ioc.Rango;
@@ -36,6 +37,8 @@ import com.example.ioc.implementaciones.RepositorioCadenasImpl;
 import com.example.ioc.implementaciones.ServicioCadenasImpl;
 import com.example.ioc.notificaciones.Sender;
 import com.example.ioc.notificaciones.TwitterSender;
+
+import jakarta.annotation.PreDestroy;
 
 @EnableAsync
 @EnableScheduling
@@ -257,7 +260,7 @@ public class DemoApplication implements CommandLineRunner {
 		};
 	}
 
-	@Bean
+//	@Bean
 	CommandLineRunner limites(DummyRetry dummy, DummyAsync obj) {
 		return arg -> {
 			for (var i = 1; ++i <= 10;) {
@@ -266,6 +269,38 @@ public class DemoApplication implements CommandLineRunner {
 				}).thenAccept(result -> notify.add(result));
 			}
 		};
+	}
+
+	
+	@Bean
+	CommandLineRunner demosCorreos(MessagingService mensajeria) {
+		return _ -> {
+			mensajeria.sendWelcomeEmailAsync("pgrillo@example.com", "Pepito Grillo");
+//			mensajeria.sendEmailAsync("admin@example.com", "Aplicacion Init", "La aplicacion se ha iniciado");
+			var body = """
+					<!DOCTYPE html>
+					<html lang="es">
+					<head>
+					    <meta charset="UTF-8">
+					    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+					    <title>Servicio</title>
+					</head>
+					<body>
+					    <h1>%s</h1>
+					    <p>%s</p>
+					</body>
+					</html>
+					""".formatted("Aplicacion Open", "La aplicacion se ha iniciado");
+			mensajeria.sendMimeEmailAsync("admin@example.com", "Aplicacion Open", body, true);
+		};
+	}
+	
+	@Autowired
+	MessagingService mensajeria;
+	
+	@PreDestroy
+	void cierro() {
+		mensajeria.sendEmail("admin@example.com", "Demo application", "Aplicación detenida");
 	}
 
 }
