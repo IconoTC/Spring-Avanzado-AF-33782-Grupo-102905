@@ -1,3 +1,61 @@
-2026-10-21T09:03:21.305+02:00  INFO 7764 --- [demo] [RMI TCP Connection(325)-172.19.48.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2026-10-21T09:03:21.504+02:00  INFO 7764 --- [demo] [RMI TCP Connection(325)-172.19.48.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-10-21T09:03:21.636+02:00  INFO 7764 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-23T08:59:48.103+02:00  INFO 21248 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 21248 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-23T08:59:48.118+02:00  INFO 21248 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-23T08:59:48.456+02:00  INFO 21248 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-23T08:59:48.458+02:00  INFO 21248 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-23T08:59:50.630+02:00  INFO 21248 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-23T08:59:50.658+02:00  INFO 21248 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-23T08:59:50.658+02:00  INFO 21248 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-23T08:59:50.727+02:00  INFO 21248 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2261 ms
+2026-10-23T08:59:51.980+02:00  INFO 21248 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-23T08:59:51.994+02:00  INFO 21248 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 5.453 seconds (process running for 6.334)
+2026-10-23T08:59:52.006+02:00  INFO 21248 --- [demo] [task-1] c.e.i.services.EMailServiceImpl          : 🚀 [Hilo: task-1] Iniciando envío de correo a: pgrillo@example.com
+2026-10-23T08:59:52.011+02:00  INFO 21248 --- [demo] [task-2] c.e.i.services.EMailServiceImpl          : 🚀 [Hilo: task-2] Iniciando envío de correo a: admin@example.com
+2026-10-23T08:59:52.012+02:00  WARN 21248 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-23T08:59:52.190+02:00  INFO 21248 --- [demo] [task-1] c.e.i.services.EMailServiceImpl          : ✅ [Hilo: task-1] Correo enviado a pgrillo@example.com (Bienvenido a nuestra aplicación)
+2026-10-23T08:59:52.194+02:00  INFO 21248 --- [demo] [task-2] c.e.i.services.EMailServiceImpl          : Correo MIME (HTML/Adjuntos) enviado a: admin@example.com
+2026-10-23T08:59:52.195+02:00  INFO 21248 --- [demo] [task-2] c.e.i.services.EMailServiceImpl          : ✅ [Hilo: task-2] Correo MIME (HTML/Adjuntos) enviado a admin@example.com (Aplicacion Open)
+2026-10-23T09:00:36.701+02:00  INFO 21248 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-23T09:00:36.722+02:00  INFO 21248 --- [demo] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-23T09:00:36.784+02:00  INFO 21248 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-23T09:00:36.796+02:00  INFO 21248 --- [demo] [Thread-1] c.e.i.services.EMailServiceImpl          : 🚀 [Hilo: Thread-1] Iniciando envío de correo a: admin@example.com
+2026-10-23T09:00:36.876+02:00  INFO 21248 --- [demo] [Thread-1] c.e.i.services.EMailServiceImpl          : ✅ [Hilo: Thread-1] Correo enviado a admin@example.com (Demo application)
+2026-10-23T09:00:37.294+02:00  INFO 21248 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 21248 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-23T09:00:37.298+02:00  INFO 21248 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-23T09:00:38.337+02:00  INFO 21248 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-23T09:00:38.338+02:00  INFO 21248 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-23T09:00:38.339+02:00  INFO 21248 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-23T09:00:38.389+02:00  INFO 21248 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1065 ms
+2026-10-23T09:00:38.979+02:00  INFO 21248 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-23T09:00:38.984+02:00  INFO 21248 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 1.849 seconds (process running for 53.324)
+2026-10-23T09:00:38.987+02:00  WARN 21248 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-23T09:00:38.989+02:00  INFO 21248 --- [demo] [task-1] c.e.i.services.EMailServiceImpl          : 🚀 [Hilo: task-1] Iniciando envío de correo a: pgrillo@example.com
+2026-10-23T09:00:38.989+02:00  INFO 21248 --- [demo] [task-2] c.e.i.services.EMailServiceImpl          : 🚀 [Hilo: task-2] Iniciando envío de correo a: admin@example.com
+2026-10-23T09:00:39.007+02:00  INFO 21248 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-23T09:00:39.063+02:00  INFO 21248 --- [demo] [task-2] c.e.i.services.EMailServiceImpl          : Correo MIME (HTML/Adjuntos) enviado a: admin@example.com
+2026-10-23T09:00:39.063+02:00  INFO 21248 --- [demo] [task-2] c.e.i.services.EMailServiceImpl          : ✅ [Hilo: task-2] Correo MIME (HTML/Adjuntos) enviado a admin@example.com (Aplicacion Open)
+2026-10-23T09:00:39.065+02:00  INFO 21248 --- [demo] [task-1] c.e.i.services.EMailServiceImpl          : ✅ [Hilo: task-1] Correo enviado a pgrillo@example.com (Bienvenido a nuestra aplicación)
+2026-10-23T09:01:23.785+02:00  INFO 21248 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-23T09:01:23.787+02:00  INFO 21248 --- [demo] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-23T09:01:23.803+02:00  INFO 21248 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-23T09:01:23.807+02:00  INFO 21248 --- [demo] [Thread-5] c.e.i.services.EMailServiceImpl          : 🚀 [Hilo: Thread-5] Iniciando envío de correo a: admin@example.com
+2026-10-23T09:01:23.857+02:00  INFO 21248 --- [demo] [Thread-5] c.e.i.services.EMailServiceImpl          : ✅ [Hilo: Thread-5] Correo enviado a admin@example.com (Demo application)
+2026-10-23T09:01:24.044+02:00  INFO 21248 --- [demo] [restartedMain] com.example.DemoApplication              : Starting DemoApplication using Java 25 with PID 21248 (C:\Cursos\REM20261019\demo\target\classes started by Javier in C:\Cursos\REM20261019\demo)
+2026-10-23T09:01:24.044+02:00  INFO 21248 --- [demo] [restartedMain] com.example.DemoApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-23T09:01:24.442+02:00  INFO 21248 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8001 (http)
+2026-10-23T09:01:24.443+02:00  INFO 21248 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-23T09:01:24.444+02:00  INFO 21248 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-23T09:01:24.482+02:00  INFO 21248 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 432 ms
+2026-10-23T09:01:24.989+02:00  INFO 21248 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8001 (http) with context path '/'
+2026-10-23T09:01:24.995+02:00  INFO 21248 --- [demo] [restartedMain] com.example.DemoApplication              : Started DemoApplication in 0.998 seconds (process running for 99.336)
+2026-10-23T09:01:25.000+02:00  WARN 21248 --- [demo] [restartedMain] com.example.DemoApplication              : ------------------> Aplicación arrancada ...
+2026-10-23T09:01:25.000+02:00  INFO 21248 --- [demo] [task-1] c.e.i.services.EMailServiceImpl          : 🚀 [Hilo: task-1] Iniciando envío de correo a: pgrillo@example.com
+2026-10-23T09:01:25.000+02:00  INFO 21248 --- [demo] [task-2] c.e.i.services.EMailServiceImpl          : 🚀 [Hilo: task-2] Iniciando envío de correo a: admin@example.com
+2026-10-23T09:01:25.006+02:00  INFO 21248 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-23T09:01:25.058+02:00  INFO 21248 --- [demo] [task-1] c.e.i.services.EMailServiceImpl          : ✅ [Hilo: task-1] Correo enviado a pgrillo@example.com (Bienvenido a nuestra aplicación)
+2026-10-23T09:01:25.071+02:00  INFO 21248 --- [demo] [task-2] c.e.i.services.EMailServiceImpl          : Correo MIME (HTML/Adjuntos) enviado a: admin@example.com
+2026-10-23T09:01:25.071+02:00  INFO 21248 --- [demo] [task-2] c.e.i.services.EMailServiceImpl          : ✅ [Hilo: task-2] Correo MIME (HTML/Adjuntos) enviado a admin@example.com (Aplicacion Open)
+2026-10-23T09:01:35.504+02:00  INFO 21248 --- [demo] [RMI TCP Connection(6)-172.19.48.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-10-23T09:01:35.506+02:00  INFO 21248 --- [demo] [RMI TCP Connection(6)-172.19.48.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-23T09:01:35.522+02:00  INFO 21248 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-23T09:01:35.525+02:00  INFO 21248 --- [demo] [RMI TCP Connection(6)-172.19.48.1] c.e.i.services.EMailServiceImpl          : 🚀 [Hilo: RMI TCP Connection(6)-172.19.48.1] Iniciando envío de correo a: admin@example.com
+2026-10-23T09:01:35.557+02:00  INFO 21248 --- [demo] [RMI TCP Connection(6)-172.19.48.1] c.e.i.services.EMailServiceImpl          : ✅ [Hilo: RMI TCP Connection(6)-172.19.48.1] Correo enviado a admin@example.com (Demo application)
